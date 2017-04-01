@@ -1,5 +1,6 @@
 <?php
-
+	require("config.php");
+	
 	echo "<a href='http://85.171.60.67/sideBox.html'>Remettre la barre laterale</a><br/>";
 	echo "<a href='http://85.171.60.67/soumettreCommentaire.php'>Nouveau commentaire</a><br/><br/>";
 	

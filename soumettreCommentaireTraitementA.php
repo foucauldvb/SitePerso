@@ -1,4 +1,5 @@
 <?php
+	require("config.php");
 	
 	//Redirige après 3 secondes
 	header("refresh:3; url=http://85.171.60.67/soumettreCommentaire.php");
