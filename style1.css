@@ -1,0 +1,246 @@
+body{
+	background-image: url("images/background.jpg");
+	/*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.page{
+	width:90%;
+	margin: auto;
+}
+
+
+
+/*=========================================================================================*/
+/*header*/
+header{
+	box-shadow: 6px 6px 6px black;
+	display:flex;
+	background-color: grey;
+	height:160px;
+}
+
+header img{
+	height:140px;
+	margin-left:10px;
+	margin-top:10px;
+	margin-right:10px;
+}
+
+header img:hover{
+	border-radius: 0px;
+}
+
+header h1{
+	flex:2; /*Pour decaler l'heure à droite*/
+}
+
+#dateHeureHeader{
+	margin-right: 30px;
+}
+
+
+
+/*=========================================================================================*/
+/*nav*/
+nav{
+	display: flex;
+	justify-content: center;/*Centrer les boutons sur la page*/
+}
+
+nav ul{
+	display: flex;
+	margin: 0px; /*pour ne pas avoir d'espace au dessus des boutons*/
+	text-align: center; /*pour centrer les texte dans les cases*/
+}
+
+nav li{
+	display: block;/*Pour supprimer les point du unordered list*/
+}
+
+
+nav a, nav a:visited{
+	display: block;
+	padding:10px;
+	margin:10px;
+	width: 130px;/*Largeur des boutons*/
+	background-color: rgb(101,147,254);
+	border-style: outset;
+	color: white;/*Couleur du cadre des boutons*/
+	text-decoration: none;/*Pas de souslignage du text de la nav*/
+}
+
+nav a:hover, nav a:visited:hover{/*Souris au dessus d'un bouton*/
+	background-color: rgb(101,147,100);
+}
+
+
+#bontonNavSelected{/*Bouton selectionné*/
+	background-color: rgb(101,147,100);
+}
+
+nav span{/*Text des boutons*/
+	color: black;/*Couleur du texte*/
+	font-weight: bold;/*Text en gras*/
+}
+
+
+
+
+
+
+/*=========================================================================================*/
+/*liens hypertext*/
+a{
+	color: blue;
+}
+
+a:hover{
+	color: red;
+}
+
+
+
+
+
+/*=========================================================================================*/
+/*titreBox*/
+#titreBox{
+	text-align:center;
+	font-size: 50px;
+	margin-top: 0px;
+}
+
+#titre{
+	padding: 5px 50px;
+	background-color: grey;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+}
+
+
+
+
+
+
+/*=========================================================================================*/
+/*inPage*/
+#inPage{
+	display: flex;
+}
+
+
+
+iframe{
+	border: none;
+}
+
+
+
+
+/*=========================================================================================*/
+/*sideBox*/
+
+#sideBoxBody{
+	margin: 0px;
+}
+
+#sideBox{
+	box-shadow: 6px 6px 6px black;
+	border-radius: 10px;
+	background-color: rgb(101,147,254);
+	align-self: flex-start;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right:20px;
+}
+
+
+#sideBox h1,#sideBox h2,#sideBox p,#sideBox ul{
+	margin: 0px;
+}
+#sideBox .toph1{
+	margin-top: 0px;
+	padding-top: 20px;
+	font-size: 2em;
+}
+
+#sideBox .notoph1{
+	margin-top: 20px;
+	font-size: 2em;
+}
+#sideBox h2{
+	margin-top: 10px;
+	font-size: 1.2em;
+}
+#sideBox ul{
+	padding-left: 20px;
+}
+
+#sideBox hr{
+	margin-top: 30px;
+}
+
+
+
+
+
+
+/*=========================================================================================*/
+/*content et contentImages*/
+#content{
+	display: flex;
+	flex-direction: column; 
+	background-color: rgb(254,254,254);
+	padding: 20px;
+	width: 100%;
+	min-height: 600px;
+}
+
+#contentImages{
+	display: flex;
+	flex-direction: column; 
+	background-color: rgb(254,254,254);
+	padding: 20px;
+	width: 100%;
+	min-height: 600px;
+}
+
+#content .toph1{
+	margin-top: 0px;
+}
+
+#content h1{
+	font-size: 2em;
+}
+
+#content img{
+	float: right;
+}
+
+#contentImages img{
+	float: none;
+	max-height:: 200px;
+}
+
+#content h2, #contentImages h2{
+	font-size: 17px;
+}
+
+#content article img, #contentImages article img{
+	max-height: 170px;
+}
+
+
+
+
+/*=========================================================================================*/
+/*footer*/
+footer{
+	margin-top: 20px;
+	font-style:italic;
+	font-size: small;
+	text-align: center;
+}
+
+
+

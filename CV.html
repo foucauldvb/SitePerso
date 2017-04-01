@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8" />
+	<title>Nicolas VERHELST</title>
+	<link type="text/css" rel="stylesheet" href="style1.css">
+</head>
+
+<body OnLoad="fonctionTemps()">
+    <div class="page">
+		<header>
+			<a href="index.php"><img src="images/photoProfil.jpg" alt="Photo profil Nicolas VERHELST"/></a>
+			<h1>Nicolas VERHELST</h1>
+			<h2><span id="dateHeureHeader"></span></br></h2>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.php"><span>Accueil</span></a></li>
+				<li><a id="bontonNavSelected" href="CV.html"><span>CV</span></a></li>
+				<li><a href="telechargements.html"><span>Téléchargements</span></a></li>
+				<li><a href="images.html"><span>Images</span></a></li>
+			</ul>
+		</nav>
+
+		
+		
+		
+		<h1 id="titreBox"><span id="titre">CV</span></h1>
+		
+		<div id="inPage">
+			
+			<iframe src="sideBox.html">
+			Votre navigateur ne support pas iframe.
+			</iframe>
+			
+			
+			
+			
+			
+			
+			<div id="content">
+				<article>
+					<h1>CV français</h1>
+					<EMBED src="documents/CVfr.pdf" width="100%" height="1200px"></EMBED>
+						<!-- <object type="application/pdf" data="documents/CVfr.pdf" " width="100%" height="1300px" <a href="documents/CVfr.pdf" alt="Mon CV français" >/object > -->
+					<h1>CV anglais</h1>
+					<EMBED src="documents/CVen.pdf" width="100%" height="1200px"></EMBED>
+						<!-- <object type="application/pdf" data="documents/CVen.pdf" " width="100%" height="1300px" <a href="documents/CVen.pdf" alt="My English resume" >/object > -->
+				</article>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<footer>
+		<span id="dateHeureFooter"></span></br>
+		Hébergé par un serveur apache2 dans une carte Raspberry Pi 3 Model B</br>
+		&copy; Nicolas VERHELST <a href="mailto:nico.v.44@gmail.com">nico.v.44@gmail.com</a>
+		</footer>
+		
+	</div>
+
+	<script src="JS1.js"></script>
+</body>
+</html> 
